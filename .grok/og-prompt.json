@@ -1,0 +1,8 @@
+{
+  "model": "grok-imagine-image-2.0",
+  "prompt": "A wide banner of pure white paper, almost entirely empty and bright. Only along the bottom edge, a delicate flat silhouette of a few small pine trees in charcoal ink, short and sparse like a quiet horizon hint, not a dense forest and not a night landscape. The upper four-fifths of the image is unbroken white. No text, no letters, no numbers, no animals, no people, no footprints, flat graphic design, even lighting.",
+  "aspect_ratio": "2:1",
+  "resolution": "2k",
+  "response_format": "b64_json",
+  "n": 1
+}

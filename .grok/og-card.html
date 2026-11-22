@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: block;
+  }
+  html, body { margin: 0; background: #ffffff; }
+  .stage {
+    width: 1200px;
+    height: 630px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  .lockup {
+    position: absolute;
+    left: 0; right: 0;
+    top: 18px;
+    bottom: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+  }
+  .mark { width: 188px; height: 188px; display: block; }
+  .word {
+    font-family: "Outfit", Arial, sans-serif;
+    font-weight: 500;
+    font-variation-settings: "wght" 500;
+    font-size: 168px;
+    line-height: 0.88;
+    letter-spacing: -4px;
+    margin: 0;
+  }
+  .tag {
+    font-family: "Outfit", Arial, sans-serif;
+    font-weight: 400;
+    font-variation-settings: "wght" 430;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    color: #5f6368;
+    margin: 2px 0 0;
+  }
+  .pines {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 96px;
+    display: block;
+  }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="lockup">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="#202124"/>
+        <g fill="#ffffff">
+          <ellipse cx="9.15" cy="9.05" rx="2.35" ry="2.85"/>
+          <ellipse cx="13.15" cy="6.95" rx="1.85" ry="2.35"/>
+          <ellipse cx="16.55" cy="6.7" rx="1.6" ry="2.1"/>
+          <ellipse cx="19.55" cy="7.9" rx="1.45" ry="1.9"/>
+          <ellipse cx="22.15" cy="10.15" rx="1.3" ry="1.65"/>
+          <path d="M10.1 13.1c-3.1 1.3-4.8 4.4-4.6 8.1.3 4.3 3.4 7.1 7.6 7.1 4.8 0 8.2-2.6 9.1-6.8.7-3.4-.8-6.5-3.9-8.1-1.8 1.9-4.1 2.5-6.1 1.5-1.2-.6-2-1.4-2.1-1.8z"/>
+        </g>
+      </svg>
+      <p class="word"><span style="color:#4285f4">F</span><span style="color:#ea4335">o</span><span style="color:#fbbc05">o</span><span style="color:#4285f4">t</span><span style="color:#34a853">g</span><span style="color:#4285f4">l</span><span style="color:#ea4335">e</span></p>
+      <p class="tag">Search the public Bigfoot files</p>
+    </div>
+    <svg class="pines" viewBox="0 0 1200 96" preserveAspectRatio="xMidYMax meet" aria-hidden="true">
+      <g fill="#202124">
+        <path d="M28 96 L52 46 L62 62 L78 28 L90 58 L104 40 L116 96 Z"/>
+        <path d="M98 96 L118 58 L128 72 L146 38 L158 66 L176 96 Z"/>
+        <path d="M188 96 L206 64 L214 74 L230 48 L242 70 L258 96 Z"/>
+        <path d="M268 96 L286 70 L294 78 L308 56 L320 76 L336 96 Z"/>
+        <path d="M360 96 L374 74 L382 80 L394 62 L406 78 L420 96 Z"/>
+        <path d="M448 96 L460 78 L468 84 L478 68 L488 82 L502 96 Z"/>
+        <path d="M530 96 L540 82 L546 86 L554 74 L562 84 L574 96 Z"/>
+        <path d="M626 96 L638 80 L644 86 L654 72 L662 84 L676 96 Z"/>
+        <path d="M698 96 L712 76 L720 82 L732 66 L742 80 L758 96 Z"/>
+        <path d="M780 96 L796 70 L804 78 L818 52 L830 74 L848 96 Z"/>
+        <path d="M864 96 L882 62 L892 74 L908 44 L920 68 L942 96 Z"/>
+        <path d="M954 96 L974 52 L986 68 L1004 32 L1018 62 L1040 96 Z"/>
+        <path d="M1048 96 L1070 48 L1082 64 L1102 26 L1116 58 L1140 96 Z"/>
+        <path d="M1124 96 L1146 42 L1158 58 L1178 22 L1192 54 L1200 70 L1200 96 Z"/>
+        <path d="M0 96 L0 72 L8 58 L22 34 L36 60 L48 46 L64 96 Z"/>
+      </g>
+    </svg>
+  </div>
+</body>
+</html>

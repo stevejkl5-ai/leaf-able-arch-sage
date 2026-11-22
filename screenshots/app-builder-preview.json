@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Footgle",
+      "hasCanvas": false,
+      "bodyTextLen": 344,
+      "bodyTextHash": "da279634aca464ded19ac601a7321c44829e2d593242f791624d06bd0d65636f",
+      "bodyTextPrefix": "Footgle Search the U.S. government's Bigfoot files in text, imag",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Footgle",
+      "hasCanvas": false,
+      "bodyTextLen": 344,
+      "bodyTextHash": "da279634aca464ded19ac601a7321c44829e2d593242f791624d06bd0d65636f",
+      "bodyTextPrefix": "Footgle Search the U.S. government's Bigfoot files in text, imag",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
